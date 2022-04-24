@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "a3ba7c6c-f990-43fe-9b02-b89cec6b3650",
-		"name": "postTodolist",
+		"_postman_id": "2a225d70-f411-4417-8b66-77e46263d5c4",
+		"name": "postsHerokuTodolist",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -18,14 +18,13 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "127.0.0.1:8080/posts",
+					"raw": "https://blooming-plateau-52099.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"blooming-plateau-52099",
+						"herokuapp",
+						"com"
 					],
-					"port": "8080",
 					"path": [
 						"posts"
 					]
@@ -40,17 +39,16 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"大破\",\r\n    \"tags\":[\"嘴砲\"],\r\n    \"type\":\"group\",\r\n    \"image\":\"\",\r\n    \"createAt\":\"\",\r\n    \"content\":\"happy world\",\r\n    \"likes\":100,\r\n    \"comments\":100\r\n}"
+					"raw": "{\r\n    \"name\": \"法還\",\r\n    \"tags\":[\"嘴砲\"],\r\n    \"type\":\"group\",\r\n    \"image\":\"\",\r\n    \"createAt\":\"\",\r\n    \"content\":\"happy world\",\r\n    \"likes\":100,\r\n    \"comments\":100\r\n}"
 				},
 				"url": {
-					"raw": "127.0.0.1:8080/posts",
+					"raw": "https://blooming-plateau-52099.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"blooming-plateau-52099",
+						"herokuapp",
+						"com"
 					],
-					"port": "8080",
 					"path": [
 						"posts"
 					]
@@ -64,14 +62,13 @@
 				"method": "OPTIONS",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:8080/posts",
+					"raw": "https://blooming-plateau-52099.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"blooming-plateau-52099",
+						"herokuapp",
+						"com"
 					],
-					"port": "8080",
 					"path": [
 						"posts"
 					]
@@ -85,14 +82,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:8080/posts",
+					"raw": "https://blooming-plateau-52099.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"blooming-plateau-52099",
+						"herokuapp",
+						"com"
 					],
-					"port": "8080",
 					"path": [
 						"posts"
 					]
@@ -106,17 +102,16 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:8080/posts/6265046e749502485eeedf8c",
+					"raw": "https://blooming-plateau-52099.herokuapp.com/posts/",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"blooming-plateau-52099",
+						"herokuapp",
+						"com"
 					],
-					"port": "8080",
 					"path": [
 						"posts",
-						"6265046e749502485eeedf8c"
+						""
 					]
 				}
 			},
@@ -137,17 +132,16 @@
 					}
 				},
 				"url": {
-					"raw": "127.0.0.1:8080/posts/6265051f749502485eeedf99",
+					"raw": "https://blooming-plateau-52099.herokuapp.com/posts/",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"blooming-plateau-52099",
+						"herokuapp",
+						"com"
 					],
-					"port": "8080",
 					"path": [
 						"posts",
-						"6265051f749502485eeedf99"
+						""
 					]
 				}
 			},
