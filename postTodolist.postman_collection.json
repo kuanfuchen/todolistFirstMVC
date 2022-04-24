@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "a3ba7c6c-f990-43fe-9b02-b89cec6b3650",
+		"name": "postTodolist",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "posts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/posts",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postposts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"大破\",\r\n    \"tags\":[\"嘴砲\"],\r\n    \"type\":\"group\",\r\n    \"image\":\"\",\r\n    \"createAt\":\"\",\r\n    \"content\":\"happy world\",\r\n    \"likes\":100,\r\n    \"comments\":100\r\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/posts",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postoption",
+			"request": {
+				"method": "OPTIONS",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/posts",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "plstdelete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/posts",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postsdeleteone",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/posts/6265046e749502485eeedf8c",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						"6265046e749502485eeedf8c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postsPatch",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"二十波劍神\",\r\n    \"tags\":[\"嘴砲\"],\r\n    \"type\":\"group\",\r\n    \"image\":\"\",\r\n    \"createAt\":\"\",\r\n    \"content\":\"happy world\",\r\n    \"likes\":100,\r\n    \"comments\":100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/posts/6265051f749502485eeedf99",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						"6265051f749502485eeedf99"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
